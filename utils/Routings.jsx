@@ -22,7 +22,7 @@ const Routings = () => {
   return (
     <div>
       <Routes>
-        <Route path="/Marketing-Website/" element={<Home />} />
+        <Route path="/" element={<Home />} />
         <Route path="/app-development" element={<AppDevelopment />} />
         <Route path="/web-development" element={<WebDevelopment />} />
         <Route path="/seo-optimization" element={<Seo />} />
