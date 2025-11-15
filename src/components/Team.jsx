@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import team1 from "../img/team/team-1.jpg";
-import team2 from "../img/team/team-2.jpg";
+import team2 from "../img/team/team-2.png";
 import team3 from "../img/team/team-3.jpg";
 import team4 from "../img/team/team-4.jpg";
 // aos
@@ -27,15 +27,14 @@ const Team = () => {
         <div className="bg-orange-600 h-1 w-16 rounded"></div>
       </div>
       <p className="text-gray-700 text-center mt-7 mb-10 text-lg">
-        Our Mission is clear. We are building to train over 10 Crores Career
-        Aspirants
+        Our Mission is clear. We are building 
       </p>
 
       <div className="flex flex-col xs:flex-row gap-6 p-5 lg:p-0 items-center">
-        <TeamImage image={team1} name={"Aaditya Kumar Sah"} role={"Cheif Executive Officer"} />
-        <TeamImage image={team2} name={"Ankit Kumar Gupta"} role={"Product Manager"} />
+        <TeamImage image={team1} name={"Aaditya Kumar Sah"} role={"Team Manager"} />
+        <TeamImage image={team2} name={"Ankit Kumar Gupta"} role={"Shariful(Web Scripting)"} />
         <TeamImage image={team3} name={"Johnson Christopher"} role={"(AI Enginee)"} />
-        <TeamImage image={team4} name={"Amanda Jepson"} role={"Accountant"} />
+        <TeamImage image={team4} name={"Yash"} role={"marketing office"} />
       </div>
     </div>
   );
